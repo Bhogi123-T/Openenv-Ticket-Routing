@@ -1,0 +1,17 @@
+[project]
+name = "ticket-routing-env"
+version = "1.0.0"
+description = "OpenEnv Ticket Routing Environment"
+authors = [
+    {name = "Participant"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "flask",
+    "pydantic"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
