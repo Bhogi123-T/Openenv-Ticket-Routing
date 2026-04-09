@@ -1,0 +1,11 @@
+name: ticket-routing-env
+version: "1.0.0"
+description: OpenEnv Ticket Routing — routes customer support tickets via three difficulty tiers
+
+entrypoint: inference.py
+
+endpoints:
+  reset: /reset
+  step: /step
+
+method: POST
