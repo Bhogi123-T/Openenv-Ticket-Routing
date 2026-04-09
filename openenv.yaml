@@ -1,6 +1,7 @@
 name: ticket-routing-env
 version: "1.0.0"
-description: OpenEnv Ticket Routing — routes customer support tickets via three difficulty tiers
+spec_version: "1.0"
+description: "OpenEnv Ticket Routing - routes customer support tickets via three difficulty tiers"
 
 entrypoint: inference.py
 
