@@ -5,7 +5,7 @@ description: "OpenEnv Ticket Routing - routes customer support tickets via three
 
 type: reinforcement_learning
 runtime: docker
-app: inference:app
+app: app:app
 port: 7860
 
 entrypoint: inference.py

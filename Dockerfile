@@ -9,4 +9,5 @@ COPY . .
 
 EXPOSE 7860
 
-CMD ["python", "inference.py"]
+# Start the Flask environment server
+CMD ["python", "app.py"]
