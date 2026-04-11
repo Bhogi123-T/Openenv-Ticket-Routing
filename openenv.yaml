@@ -1,7 +1,12 @@
 name: ticket-routing-env
 version: "1.0.0"
-spec_version: "1.0"
+spec_version: 1
 description: "OpenEnv Ticket Routing - routes customer support tickets via three difficulty tiers"
+
+type: reinforcement_learning
+runtime: docker
+app: inference:app
+port: 7860
 
 entrypoint: inference.py
 
